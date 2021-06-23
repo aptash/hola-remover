@@ -1,0 +1,15 @@
+{
+	"name": "Hola Remover",
+	"description": "Remove Hola Pop-Up with Timer",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {},
+
+	"permissions": ["activeTab", "scripting"],
+	"icons": {
+		"128": "hola.png"
+	}
+}
